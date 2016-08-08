@@ -8,7 +8,7 @@
 
 import UIKit
 
-var mylist : Array<String> = ["primero", "segundo","tercero","cuarto","quinto"]
+var mylist : Array<String> = ["01_hello-terminal.mov", "01_03-Working with challenges.mp4","101554_00_02_SC11_background.mov","06_02-Next steps.mp4","00_03-ExerciseFiles.mp4"]
 
 class TableViewController: UITableViewController {
 
@@ -60,7 +60,7 @@ class TableViewController: UITableViewController {
                 let indexPath = tableView.indexPathForCell(selectedBookCel)!
                 print(indexPath.row)
                 //print(toDoItems)
-                //detailView.index = indexPath.row
+                detailView.index = indexPath.row
                
             }
             

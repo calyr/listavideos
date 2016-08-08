@@ -14,6 +14,11 @@
 		33D75ED01D580B4500671D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D75ECE1D580B4500671D05 /* LaunchScreen.storyboard */; };
 		33D75ED81D580BB400671D05 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D75ED71D580BB400671D05 /* TableViewController.swift */; };
 		33D75EDA1D580BE000671D05 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D75ED91D580BE000671D05 /* TableViewCell.swift */; };
+		CF137D601D58C94500CF53F9 /* 01_hello-terminal.mov in Resources */ = {isa = PBXBuildFile; fileRef = CF137D5F1D58C94500CF53F9 /* 01_hello-terminal.mov */; };
+		CF137D641D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF137D631D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 */; };
+		CF137D661D58CA9B00CF53F9 /* 06_02-Next steps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF137D651D58CA9B00CF53F9 /* 06_02-Next steps.mp4 */; };
+		CF137D681D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov in Resources */ = {isa = PBXBuildFile; fileRef = CF137D671D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov */; };
+		CF137D6A1D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF137D691D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +31,11 @@
 		33D75ED11D580B4500671D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33D75ED71D580BB400671D05 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		33D75ED91D580BE000671D05 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		33D75EDB1D58291700671D05 /* cuarto.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cuarto.mp4; sourceTree = "<group>"; };
-		33D75EDC1D58291700671D05 /* primero.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = primero.MP4; sourceTree = "<group>"; };
-		33D75EDD1D58291700671D05 /* quinto.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = quinto.mp4; sourceTree = "<group>"; };
-		33D75EDE1D58291700671D05 /* segundo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = segundo.mp4; sourceTree = "<group>"; };
-		33D75EDF1D58291700671D05 /* tercero.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tercero.mp4; sourceTree = "<group>"; };
+		CF137D5F1D58C94500CF53F9 /* 01_hello-terminal.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "01_hello-terminal.mov"; sourceTree = "<group>"; };
+		CF137D631D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01_03-Working with challenges.mp4"; sourceTree = "<group>"; };
+		CF137D651D58CA9B00CF53F9 /* 06_02-Next steps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "06_02-Next steps.mp4"; sourceTree = "<group>"; };
+		CF137D671D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 101554_00_02_SC11_background.mov; sourceTree = "<group>"; };
+		CF137D691D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00_03-ExerciseFiles.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +68,11 @@
 		33D75EC41D580B4500671D05 /* ListasVideo */ = {
 			isa = PBXGroup;
 			children = (
-				33D75EDB1D58291700671D05 /* cuarto.mp4 */,
-				33D75EDC1D58291700671D05 /* primero.MP4 */,
-				33D75EDD1D58291700671D05 /* quinto.mp4 */,
-				33D75EDE1D58291700671D05 /* segundo.mp4 */,
-				33D75EDF1D58291700671D05 /* tercero.mp4 */,
+				CF137D5F1D58C94500CF53F9 /* 01_hello-terminal.mov */,
+				CF137D631D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 */,
+				CF137D671D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov */,
+				CF137D651D58CA9B00CF53F9 /* 06_02-Next steps.mp4 */,
+				CF137D691D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 */,
 				33D75EC51D580B4500671D05 /* AppDelegate.swift */,
 				33D75EC71D580B4500671D05 /* ViewController.swift */,
 				33D75EC91D580B4500671D05 /* Main.storyboard */,
@@ -138,7 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF137D6A1D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 in Resources */,
 				33D75ED01D580B4500671D05 /* LaunchScreen.storyboard in Resources */,
+				CF137D681D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov in Resources */,
+				CF137D601D58C94500CF53F9 /* 01_hello-terminal.mov in Resources */,
+				CF137D641D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 in Resources */,
+				CF137D661D58CA9B00CF53F9 /* 06_02-Next steps.mp4 in Resources */,
 				33D75ECD1D580B4500671D05 /* Assets.xcassets in Resources */,
 				33D75ECB1D580B4500671D05 /* Main.storyboard in Resources */,
 			);
@@ -302,6 +312,7 @@
 				33D75ED61D580B4500671D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

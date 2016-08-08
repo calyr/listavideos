@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     var index : Int = 0
     
+    @IBOutlet weak var imagenThu: UIImageView!
+    @IBOutlet weak var myTitle: UILabel!
     private var reproductor = AVPlayer()
     private var controlador = AVPlayerViewController()
 
@@ -31,9 +33,16 @@ class ViewController: UIViewController {
         reproductor.play()*/
         
     }
-    
+    //Users/callisaya/Documents/listavideos/ListasVideo/0102.Biographical Information On The Author.mp4
     override func viewDidAppear(animated: Bool) {
-        let fileURL = NSURL(fileURLWithPath: "/Users/calyr/Documents/Movil/ios/ListasVideo/ListasVideo/primero.MP4")
+        print("El index es \(index)")
+        let videodata = mylist[index].componentsSeparatedByString(".")
+        self.myTitle.text = videodata[0]
+        let path = NSBundle.mainBundle().pathForResource(videodata[0], ofType:videodata[1])!
+        print(path)
+        //let fileURL = NSURL(fileURLWithPath: "/Users/callisaya/Documents/listavideos/ListasVideo/cuarto.mp4")
+        let fileURL = NSURL(fileURLWithPath: path)
+        imagenThu.image = previewImageForLocalVideo(fileURL)
         reproductor = AVPlayer(URL: fileURL)
         controlador.player = reproductor
         
@@ -41,30 +50,40 @@ class ViewController: UIViewController {
             self.controlador.player?.play()
         }*/
         self.addChildViewController(controlador)
-        controlador.view.frame = CGRectMake(10,70,300,250)
+        controlador.view.frame = CGRectMake(10,250,300,250)
         self.view.addSubview(controlador.view)
         reproductor.play()
         
         
     }
 
-    @IBAction func lessVol() {
-        print(reproductor.volume)
-        if(reproductor.volume > 0.0){
-            reproductor.volume--
-        }
-        
-    }
-    @IBAction func addVol() {
-        print(reproductor.volume)
-        reproductor.volume++
-    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     @IBAction func controlVolumen(sender: UISlider) {
         reproductor.volume = sender.value
+    }
+    
+    func previewImageForLocalVideo(url:NSURL) -> UIImage?
+    {
+        let asset = AVAsset(URL: url)
+        let imageGenerator = AVAssetImageGenerator(asset: asset)
+        imageGenerator.appliesPreferredTrackTransform = true
+        
+        var time = asset.duration
+        //If possible - take not the first frame (it could be completely black or white on camara's videos)
+        time.value = min(time.value, 2)
+        
+        do {
+            let imageRef = try imageGenerator.copyCGImageAtTime(time, actualTime: nil)
+            return UIImage(CGImage: imageRef)
+        }
+        catch let error as NSError
+        {
+            print("Image generation failed with error \(error)")
+            return nil
+        }
     }
 
 
