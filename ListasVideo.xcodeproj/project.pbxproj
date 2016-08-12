@@ -19,6 +19,7 @@
 		CF137D661D58CA9B00CF53F9 /* 06_02-Next steps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF137D651D58CA9B00CF53F9 /* 06_02-Next steps.mp4 */; };
 		CF137D681D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov in Resources */ = {isa = PBXBuildFile; fileRef = CF137D671D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov */; };
 		CF137D6A1D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF137D691D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 */; };
+		CF31C0CC1D5E406A000A4118 /* Mana - Si no te hubieras ido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0CB1D5E406A000A4118 /* Mana - Si no te hubieras ido.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CF137D651D58CA9B00CF53F9 /* 06_02-Next steps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "06_02-Next steps.mp4"; sourceTree = "<group>"; };
 		CF137D671D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 101554_00_02_SC11_background.mov; sourceTree = "<group>"; };
 		CF137D691D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00_03-ExerciseFiles.mp4"; sourceTree = "<group>"; };
+		CF31C0CB1D5E406A000A4118 /* Mana - Si no te hubieras ido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mana - Si no te hubieras ido.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		33D75EC41D580B4500671D05 /* ListasVideo */ = {
 			isa = PBXGroup;
 			children = (
+				CF31C0CB1D5E406A000A4118 /* Mana - Si no te hubieras ido.mp3 */,
 				CF137D5F1D58C94500CF53F9 /* 01_hello-terminal.mov */,
 				CF137D631D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 */,
 				CF137D671D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov */,
@@ -146,6 +149,7 @@
 				CF137D6A1D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 in Resources */,
 				33D75ED01D580B4500671D05 /* LaunchScreen.storyboard in Resources */,
 				CF137D681D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov in Resources */,
+				CF31C0CC1D5E406A000A4118 /* Mana - Si no te hubieras ido.mp3 in Resources */,
 				CF137D601D58C94500CF53F9 /* 01_hello-terminal.mov in Resources */,
 				CF137D641D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 in Resources */,
 				CF137D661D58CA9B00CF53F9 /* 06_02-Next steps.mp4 in Resources */,

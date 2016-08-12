@@ -35,6 +35,19 @@ class ViewController: UIViewController {
     }
     //Users/callisaya/Documents/listavideos/ListasVideo/0102.Biographical Information On The Author.mp4
     override func viewDidAppear(animated: Bool) {
+        cargarMusica(index)
+        
+        
+    }
+    @IBAction func cambiarCancion() {
+        
+        
+        let indexrandom = Int(arc4random_uniform( UInt32(mylist.count) ) )
+        cargarMusica(indexrandom)
+    
+    }
+    
+    func cargarMusica(index:Int){
         print("El index es \(index)")
         let videodata = mylist[index].componentsSeparatedByString(".")
         self.myTitle.text = videodata[0]
@@ -47,14 +60,12 @@ class ViewController: UIViewController {
         controlador.player = reproductor
         
         /*self.presentViewController(controlador, animated: true){
-            self.controlador.player?.play()
-        }*/
+         self.controlador.player?.play()
+         }*/
         self.addChildViewController(controlador)
         controlador.view.frame = CGRectMake(10,250,300,250)
         self.view.addSubview(controlador.view)
         reproductor.play()
-        
-        
     }
 
     override func didReceiveMemoryWarning() {

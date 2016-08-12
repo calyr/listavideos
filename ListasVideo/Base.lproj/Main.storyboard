@@ -80,6 +80,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6i-Bc-uZe">
+                                <rect key="frame" x="33" y="597" width="152" height="30"/>
+                                <state key="normal" title="Cambiar Otra Canción"/>
+                                <connections>
+                                    <action selector="cambiarCancion" destination="zCV-HO-Q1J" eventType="touchUpInside" id="ANK-G3-Rlh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

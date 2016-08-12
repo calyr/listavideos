@@ -8,7 +8,8 @@
 
 import UIKit
 
-var mylist : Array<String> = ["01_hello-terminal.mov", "01_03-Working with challenges.mp4","101554_00_02_SC11_background.mov","06_02-Next steps.mp4","00_03-ExerciseFiles.mp4"]
+var mylist : Array<String> = ["01_hello-terminal.mov", "01_03-Working with challenges.mp4","101554_00_02_SC11_background.mov","06_02-Next steps.mp4","00_03-ExerciseFiles.mp4",
+                              "Mana - Si no te hubieras ido.mp3"]
 
 class TableViewController: UITableViewController {
 
