@@ -14,12 +14,18 @@
 		33D75ED01D580B4500671D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D75ECE1D580B4500671D05 /* LaunchScreen.storyboard */; };
 		33D75ED81D580BB400671D05 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D75ED71D580BB400671D05 /* TableViewController.swift */; };
 		33D75EDA1D580BE000671D05 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D75ED91D580BE000671D05 /* TableViewCell.swift */; };
-		CF137D601D58C94500CF53F9 /* 01_hello-terminal.mov in Resources */ = {isa = PBXBuildFile; fileRef = CF137D5F1D58C94500CF53F9 /* 01_hello-terminal.mov */; };
-		CF137D641D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF137D631D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 */; };
-		CF137D661D58CA9B00CF53F9 /* 06_02-Next steps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF137D651D58CA9B00CF53F9 /* 06_02-Next steps.mp4 */; };
-		CF137D681D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov in Resources */ = {isa = PBXBuildFile; fileRef = CF137D671D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov */; };
-		CF137D6A1D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF137D691D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 */; };
-		CF31C0CC1D5E406A000A4118 /* Mana - Si no te hubieras ido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0CB1D5E406A000A4118 /* Mana - Si no te hubieras ido.mp3 */; };
+		CF31C0EF1D627800000A4118 /* loversinjapan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0E31D627800000A4118 /* loversinjapan.mp3 */; };
+		CF31C0F01D627800000A4118 /* Mana - Si no te hubieras ido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0E41D627800000A4118 /* Mana - Si no te hubieras ido.mp3 */; };
+		CF31C0F11D627800000A4118 /* Michael.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0E51D627800000A4118 /* Michael.mp3 */; };
+		CF31C0F21D627800000A4118 /* i took a pill in ibiza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0E61D627800000A4118 /* i took a pill in ibiza.mp3 */; };
+		CF31C0F31D627800000A4118 /* ITookPillinIbiza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0E71D627800000A4118 /* ITookPillinIbiza.jpg */; };
+		CF31C0F41D627800000A4118 /* Michael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0E81D627800000A4118 /* Michael.jpg */; };
+		CF31C0F51D627800000A4118 /* CheapThrills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0E91D627800000A4118 /* CheapThrills.jpg */; };
+		CF31C0F61D627800000A4118 /* DueleCorazon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0EA1D627800000A4118 /* DueleCorazon.jpg */; };
+		CF31C0F71D627800000A4118 /* mana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0EB1D627800000A4118 /* mana.jpg */; };
+		CF31C0F81D627800000A4118 /* cheaptrills.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0EC1D627800000A4118 /* cheaptrills.mp3 */; };
+		CF31C0F91D627800000A4118 /* coldplaylovers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0ED1D627800000A4118 /* coldplaylovers.jpg */; };
+		CF31C0FA1D627800000A4118 /* dueleelcorazón.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF31C0EE1D627800000A4118 /* dueleelcorazón.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +38,18 @@
 		33D75ED11D580B4500671D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33D75ED71D580BB400671D05 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		33D75ED91D580BE000671D05 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		CF137D5F1D58C94500CF53F9 /* 01_hello-terminal.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "01_hello-terminal.mov"; sourceTree = "<group>"; };
-		CF137D631D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01_03-Working with challenges.mp4"; sourceTree = "<group>"; };
-		CF137D651D58CA9B00CF53F9 /* 06_02-Next steps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "06_02-Next steps.mp4"; sourceTree = "<group>"; };
-		CF137D671D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 101554_00_02_SC11_background.mov; sourceTree = "<group>"; };
-		CF137D691D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00_03-ExerciseFiles.mp4"; sourceTree = "<group>"; };
-		CF31C0CB1D5E406A000A4118 /* Mana - Si no te hubieras ido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mana - Si no te hubieras ido.mp3"; sourceTree = "<group>"; };
+		CF31C0E31D627800000A4118 /* loversinjapan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loversinjapan.mp3; sourceTree = "<group>"; };
+		CF31C0E41D627800000A4118 /* Mana - Si no te hubieras ido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mana - Si no te hubieras ido.mp3"; sourceTree = "<group>"; };
+		CF31C0E51D627800000A4118 /* Michael.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Michael.mp3; sourceTree = "<group>"; };
+		CF31C0E61D627800000A4118 /* i took a pill in ibiza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i took a pill in ibiza.mp3"; sourceTree = "<group>"; };
+		CF31C0E71D627800000A4118 /* ITookPillinIbiza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ITookPillinIbiza.jpg; sourceTree = "<group>"; };
+		CF31C0E81D627800000A4118 /* Michael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Michael.jpg; sourceTree = "<group>"; };
+		CF31C0E91D627800000A4118 /* CheapThrills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CheapThrills.jpg; sourceTree = "<group>"; };
+		CF31C0EA1D627800000A4118 /* DueleCorazon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DueleCorazon.jpg; sourceTree = "<group>"; };
+		CF31C0EB1D627800000A4118 /* mana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mana.jpg; sourceTree = "<group>"; };
+		CF31C0EC1D627800000A4118 /* cheaptrills.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheaptrills.mp3; sourceTree = "<group>"; };
+		CF31C0ED1D627800000A4118 /* coldplaylovers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coldplaylovers.jpg; sourceTree = "<group>"; };
+		CF31C0EE1D627800000A4118 /* dueleelcorazón.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dueleelcorazón.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +82,18 @@
 		33D75EC41D580B4500671D05 /* ListasVideo */ = {
 			isa = PBXGroup;
 			children = (
-				CF31C0CB1D5E406A000A4118 /* Mana - Si no te hubieras ido.mp3 */,
-				CF137D5F1D58C94500CF53F9 /* 01_hello-terminal.mov */,
-				CF137D631D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 */,
-				CF137D671D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov */,
-				CF137D651D58CA9B00CF53F9 /* 06_02-Next steps.mp4 */,
-				CF137D691D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 */,
+				CF31C0E31D627800000A4118 /* loversinjapan.mp3 */,
+				CF31C0E41D627800000A4118 /* Mana - Si no te hubieras ido.mp3 */,
+				CF31C0E51D627800000A4118 /* Michael.mp3 */,
+				CF31C0E61D627800000A4118 /* i took a pill in ibiza.mp3 */,
+				CF31C0E71D627800000A4118 /* ITookPillinIbiza.jpg */,
+				CF31C0E81D627800000A4118 /* Michael.jpg */,
+				CF31C0E91D627800000A4118 /* CheapThrills.jpg */,
+				CF31C0EA1D627800000A4118 /* DueleCorazon.jpg */,
+				CF31C0EB1D627800000A4118 /* mana.jpg */,
+				CF31C0EC1D627800000A4118 /* cheaptrills.mp3 */,
+				CF31C0ED1D627800000A4118 /* coldplaylovers.jpg */,
+				CF31C0EE1D627800000A4118 /* dueleelcorazón.mp3 */,
 				33D75EC51D580B4500671D05 /* AppDelegate.swift */,
 				33D75EC71D580B4500671D05 /* ViewController.swift */,
 				33D75EC91D580B4500671D05 /* Main.storyboard */,
@@ -146,15 +164,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF137D6A1D58CB0200CF53F9 /* 00_03-ExerciseFiles.mp4 in Resources */,
+				CF31C0F31D627800000A4118 /* ITookPillinIbiza.jpg in Resources */,
+				CF31C0F11D627800000A4118 /* Michael.mp3 in Resources */,
+				CF31C0F61D627800000A4118 /* DueleCorazon.jpg in Resources */,
+				CF31C0F51D627800000A4118 /* CheapThrills.jpg in Resources */,
+				CF31C0F71D627800000A4118 /* mana.jpg in Resources */,
+				CF31C0F01D627800000A4118 /* Mana - Si no te hubieras ido.mp3 in Resources */,
+				CF31C0F41D627800000A4118 /* Michael.jpg in Resources */,
+				CF31C0F21D627800000A4118 /* i took a pill in ibiza.mp3 in Resources */,
+				CF31C0F81D627800000A4118 /* cheaptrills.mp3 in Resources */,
 				33D75ED01D580B4500671D05 /* LaunchScreen.storyboard in Resources */,
-				CF137D681D58CABF00CF53F9 /* 101554_00_02_SC11_background.mov in Resources */,
-				CF31C0CC1D5E406A000A4118 /* Mana - Si no te hubieras ido.mp3 in Resources */,
-				CF137D601D58C94500CF53F9 /* 01_hello-terminal.mov in Resources */,
-				CF137D641D58CA1C00CF53F9 /* 01_03-Working with challenges.mp4 in Resources */,
-				CF137D661D58CA9B00CF53F9 /* 06_02-Next steps.mp4 in Resources */,
+				CF31C0F91D627800000A4118 /* coldplaylovers.jpg in Resources */,
 				33D75ECD1D580B4500671D05 /* Assets.xcassets in Resources */,
+				CF31C0FA1D627800000A4118 /* dueleelcorazón.mp3 in Resources */,
 				33D75ECB1D580B4500671D05 /* Main.storyboard in Resources */,
+				CF31C0EF1D627800000A4118 /* loversinjapan.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

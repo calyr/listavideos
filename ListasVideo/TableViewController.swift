@@ -8,9 +8,9 @@
 
 import UIKit
 
-var mylist : Array<String> = ["01_hello-terminal.mov", "01_03-Working with challenges.mp4","101554_00_02_SC11_background.mov","06_02-Next steps.mp4","00_03-ExerciseFiles.mp4",
-                              "Mana - Si no te hubieras ido.mp3"]
+var mylist : Array<String> = ["loversinjapan.mp3","Michael.mp3","i took a pill in ibiza.mp3","cheaptrills.mp3","dueleelcorazón.mp3","Mana - Si no te hubieras ido.mp3"]
 
+var mylistImage : Array<String> = ["coldplaylovers.jpg","Michael.jpg","ITookPillinIbiza.jpg","CheapThrills.jpg","DueleCorazon.jpg","mana.jpg"]
 class TableViewController: UITableViewController {
 
     override func viewDidLoad() {

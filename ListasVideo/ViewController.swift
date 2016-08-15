@@ -50,12 +50,14 @@ class ViewController: UIViewController {
     func cargarMusica(index:Int){
         print("El index es \(index)")
         let videodata = mylist[index].componentsSeparatedByString(".")
+        let imagenData = mylistImage[index]
+
         self.myTitle.text = videodata[0]
         let path = NSBundle.mainBundle().pathForResource(videodata[0], ofType:videodata[1])!
         print(path)
         //let fileURL = NSURL(fileURLWithPath: "/Users/callisaya/Documents/listavideos/ListasVideo/cuarto.mp4")
         let fileURL = NSURL(fileURLWithPath: path)
-        imagenThu.image = previewImageForLocalVideo(fileURL)
+        imagenThu.image = UIImage(named:imagenData)
         reproductor = AVPlayer(URL: fileURL)
         controlador.player = reproductor
         
