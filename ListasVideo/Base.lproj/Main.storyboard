@@ -80,9 +80,23 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5aI-Q9-sFa">
+                                <rect key="frame" x="41" y="573" width="30" height="30"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="reproducir" destination="zCV-HO-Q1J" eventType="touchUpInside" id="6ie-Ta-cKu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9rY-hZ-wAz">
+                                <rect key="frame" x="161" y="573" width="32" height="30"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="parar" destination="zCV-HO-Q1J" eventType="touchUpInside" id="27J-BK-2Qg"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6i-Bc-uZe">
-                                <rect key="frame" x="33" y="597" width="152" height="30"/>
-                                <state key="normal" title="Cambiar Otra Canción"/>
+                                <rect key="frame" x="266" y="573" width="53" height="30"/>
+                                <state key="normal" title="Change"/>
                                 <connections>
                                     <action selector="cambiarCancion" destination="zCV-HO-Q1J" eventType="touchUpInside" id="ANK-G3-Rlh"/>
                                 </connections>

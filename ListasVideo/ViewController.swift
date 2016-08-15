@@ -46,6 +46,14 @@ class ViewController: UIViewController {
         cargarMusica(indexrandom)
     
     }
+    @IBAction func reproducir() {
+        self.reproductor.play()
+
+    }
+    @IBAction func parar() {
+        self.reproductor.pause()
+
+    }
     
     func cargarMusica(index:Int){
         print("El index es \(index)")
